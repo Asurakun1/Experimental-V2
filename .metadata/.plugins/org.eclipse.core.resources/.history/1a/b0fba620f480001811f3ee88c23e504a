@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 
  * user based addition upon stat distribution implemented!
  * 
- * version 0.2.2
+ * version 0.1.9
  * 
  * @Author Asurakun1
  */
@@ -311,8 +311,6 @@ public class Stats {
 		
 	}
 	
-	
-	//Base constructor for the Stats class
 	public Stats() {
 		//stats are preset at 0
 		this.Str = 0;
@@ -362,9 +360,7 @@ public class Stats {
 		
 	}
 	
-	/*
-	 * Gets the exp requirement. Lists a total of levels and displays how much EXP is needed per level
-	 */
+	
 	
 	public void getExpRequirements() {
 		for(int i = 1; i < lvl.length; i++) {
@@ -385,10 +381,8 @@ public class Stats {
 		System.out.println("---------------");
 	}
 	
-	/*
-	These getters are purposed for sub classes only
-	Mainly to pass private variables for the desired sub class
-	to make use of the classes here and function properly.
+	/*stat getters right here are to be used for sub class purposes only
+	
 	-------------------------------------------------------
 	*/
 	public int getStr() {
@@ -430,10 +424,7 @@ public class Stats {
 	end of getters for subclass purposes
 	*/
 	
-	/*
-	 * This stat getter is only used for this class only. this is what posts the stats to the console to
-	 * display how many you earned
-	 */
+	// reposts for every new level up
 	
 	private void getStats(int temp1, int temp2, int temp3, int temp4, int temp5) {
 		

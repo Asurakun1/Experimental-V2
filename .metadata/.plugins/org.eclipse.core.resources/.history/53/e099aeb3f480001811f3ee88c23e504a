@@ -311,8 +311,6 @@ public class Stats {
 		
 	}
 	
-	
-	//Base constructor for the Stats class
 	public Stats() {
 		//stats are preset at 0
 		this.Str = 0;

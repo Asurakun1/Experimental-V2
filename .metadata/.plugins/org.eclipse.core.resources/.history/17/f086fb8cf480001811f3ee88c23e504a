@@ -311,8 +311,6 @@ public class Stats {
 		
 	}
 	
-	
-	//Base constructor for the Stats class
 	public Stats() {
 		//stats are preset at 0
 		this.Str = 0;
@@ -430,10 +428,7 @@ public class Stats {
 	end of getters for subclass purposes
 	*/
 	
-	/*
-	 * This stat getter is only used for this class only. this is what posts the stats to the console to
-	 * display how many you earned
-	 */
+	// reposts for every new level up
 	
 	private void getStats(int temp1, int temp2, int temp3, int temp4, int temp5) {
 		
