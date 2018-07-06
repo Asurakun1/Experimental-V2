@@ -60,7 +60,7 @@ public class Stats {
 		 */
 		boolean run = true;
 		String input = new String();
-		Integer inputV = Integer.valueOf(0);
+		int inputV;
 		System.out.println("Now testing the system. if posts then does as expected.");
 		
 		while(run) {
@@ -69,7 +69,7 @@ public class Stats {
 			
 			
 			/*
-			 * Modifiable stats:
+			 * Modifable stats:
 			 * Strength
 			 * Intelligence
 			 * Dexterity
@@ -115,7 +115,7 @@ public class Stats {
 								System.out.println("Invalid amount. Exeeded the total amount of points available.\n");
 							}else if(inputV < 0) {
 								System.out.println("Invalid amount. Type cannot be a negative value.\n");
-							}else if(inputV == 0){
+							}else if(inputV.intValue() == 0){
 								System.out.println("Invalid amount. Entering 0 or another type is not allowed.\n" );
 							}else {
 								this.Str = this.Str + inputV;
