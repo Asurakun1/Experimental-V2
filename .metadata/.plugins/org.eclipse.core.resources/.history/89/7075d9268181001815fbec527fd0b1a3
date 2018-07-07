@@ -1,0 +1,9 @@
+package openGLtest;
+
+public class GameEngine implements Runnable{
+
+	public GameEngine() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

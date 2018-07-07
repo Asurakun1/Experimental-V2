@@ -1,0 +1,9 @@
+package openGLtest;
+
+public class DummyLogic {
+
+	public DummyLogic() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

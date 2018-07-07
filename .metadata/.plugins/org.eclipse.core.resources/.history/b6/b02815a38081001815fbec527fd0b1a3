@@ -1,0 +1,5 @@
+package openGLtest;
+
+public interface IGameLogic {
+	void init() throws Exception;
+}

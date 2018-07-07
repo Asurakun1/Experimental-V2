@@ -4,4 +4,8 @@
 <fullyQualifiedTypeName name="com.sun.corba.se.impl.util.Version"/>
 <fullyQualifiedTypeName name="sun.java2d.marlin.Version"/>
 <fullyQualifiedTypeName name="com.sun.marlin.Version"/>
+<fullyQualifiedTypeName name="com.sun.deploy.uitoolkit.Window"/>
+<fullyQualifiedTypeName name="java.awt.Window"/>
+<fullyQualifiedTypeName name="javafx.stage.Window"/>
+<fullyQualifiedTypeName name="com.sun.glass.ui.Window"/>
 </qualifiedTypeNameHistroy>

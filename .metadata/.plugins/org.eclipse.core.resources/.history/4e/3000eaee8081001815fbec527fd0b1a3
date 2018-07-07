@@ -1,0 +1,9 @@
+package openGLtest;
+
+import java.awt.Window;
+
+public interface IGameLogic {
+	void init() throws Exception;
+	
+	void input(Window window);
+}

@@ -1,0 +1,23 @@
+package openGLtest;
+
+public class GameEngine implements Runnable{
+	
+	private final Thread gameLoopThread;
+
+	public GameEngine() {
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	 public GameEngine(String windowTitle, int width, int height, boolean vsSync, IGameLogic gameLogic) throws Exception {
+	   gameLoopThread = new Thread(this, "GAME_LOOP_THREAD");
+	   window = new Window(windowTitle, width, height, vsSync);
+	   this.gameLogic = gameLogic;
+	 }
+
+}
